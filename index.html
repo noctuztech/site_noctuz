@@ -1,87 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Noctuz Tech | Visão além do problema</title>
-<link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noctuz Tech | Visão além do problema</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<header class="topbar">
-  <div class="container">
-    <div class="brand">Noctuz <span>Tech</span></div>
-    <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#servicos">Serviços</a>
-      <a href="#planos">Planos</a>
-      <a href="#contato" class="btn">WhatsApp</a>
-    </nav>
-  </div>
+<header class="hero">
+  <h1>Noctuz Tech</h1>
+  <p class="slogan">Visão além do problema</p>
+  <a href="https://wa.me/5511976838490" class="cta">Falar no WhatsApp</a>
 </header>
 
-<section class="hero">
-  <div class="container">
-    <h1>Visão além do problema</h1>
-    <p>Suporte e infraestrutura de TI para pequenas e médias empresas que precisam de estabilidade, segurança e clareza.</p>
-    <a href="https://wa.me/5511976838490" class="btn-primary">Falar com um especialista</a>
-  </div>
+<section class="section">
+  <h2>O que fazemos</h2>
+  <p>
+    A Noctuz Tech cuida da tecnologia da sua empresa de forma simples, clara e próxima.
+    Resolvemos problemas, evitamos interrupções e ajudamos você a trabalhar com mais tranquilidade.
+  </p>
 </section>
 
-<section id="sobre" class="section">
-  <div class="container">
-    <h2>Quem é a Noctuz Tech</h2>
-    <p>Somos uma empresa focada em ajudar negócios a manterem sua tecnologia organizada e funcional. Atuamos de forma consultiva, buscando a causa real dos problemas para evitar recorrências e prejuízos operacionais.</p>
-  </div>
-</section>
+<section class="section">
+  <h2>Planos de Suporte</h2>
+  <p class="subtitle">
+    Escolha o nível de acompanhamento ideal para a sua empresa
+  </p>
 
-<section id="servicos" class="section bg">
-  <div class="container grid">
-    <div class="card">
-      <h3>Suporte Remoto</h3>
-      <p>Atendimento rápido e direto para resolver problemas do dia a dia sem burocracia.</p>
-    </div>
-    <div class="card">
-      <h3>Suporte Presencial</h3>
-      <p>Visitas técnicas quando necessário para garantir estabilidade e organização.</p>
-    </div>
-    <div class="card">
-      <h3>Infraestrutura de TI</h3>
-      <p>Redes, servidores, backups e segurança pensados para empresas.</p>
-    </div>
-  </div>
-</section>
+  <div class="plans">
 
-<section id="planos" class="section">
-  <div class="container grid">
     <div class="plan">
       <h3>Essencial</h3>
-      <p>Suporte remoto para o dia a dia.</p>
+      <p>Suporte remoto para resolver o dia a dia.</p>
+      <button onclick="togglePlano(this)">Ver mais</button>
+      <div class="details">
+        <p>
+          Ideal para pequenas empresas que precisam de ajuda rápida quando algo para de funcionar.
+          Atendimento direto, linguagem simples e foco em resolver o problema sem complicação.
+        </p>
+        <a href="https://wa.me/5511976838490" class="cta small">
+          Quero este plano
+        </a>
+      </div>
     </div>
+
     <div class="plan destaque">
       <h3>Profissional</h3>
-      <p>Suporte contínuo e preventivo.</p>
+      <p>Mais estabilidade e menos imprevistos.</p>
+      <button onclick="togglePlano(this)">Ver mais</button>
+      <div class="details">
+        <p>
+          Para empresas que querem mais organização e previsibilidade.
+          Acompanhamento próximo, orientação contínua e prevenção de problemas antes que impactem o trabalho.
+        </p>
+        <a href="https://wa.me/5511976838490" class="cta small">
+          Conversar agora
+        </a>
+      </div>
     </div>
+
     <div class="plan">
       <h3>Avançado</h3>
-      <p>Gestão completa de TI.</p>
+      <p>Tranquilidade total com a TI.</p>
+      <button onclick="togglePlano(this)">Ver mais</button>
+      <div class="details">
+        <p>
+          Gestão completa da tecnologia da empresa.
+          Você não se preocupa com a parte técnica e tem mais tempo para focar no crescimento do negócio.
+        </p>
+        <a href="https://wa.me/5511976838490" class="cta small">
+          Solicitar contato
+        </a>
+      </div>
     </div>
-  </div>
-</section>
 
-<section id="contato" class="cta">
-  <div class="container">
-    <h2>Vamos conversar?</h2>
-    <p>Entre em contato e descubra o plano ideal para sua empresa.</p>
-    <a href="https://wa.me/5511976838490" class="btn-primary">Contato via WhatsApp</a>
   </div>
 </section>
 
 <footer class="footer">
-  <div class="container">
-    <p>Noctuz Tech © 2026 · Diadema e ABC Paulista</p>
-  </div>
+  <p>Noctuz Tech © Todos os direitos reservados</p>
 </footer>
 
+<script src="assets/js/main.js"></script>
 </body>
 </html>
